@@ -1,0 +1,12 @@
+== README
+
+Things you may want to cover:
+
+* rvm install ruby --latest
+* rvm use <just_installed>
+
+* rails new r24e --database=postgresql
+* cd r24e
+* git init
+* git add remote origin ssh:url.git
+
