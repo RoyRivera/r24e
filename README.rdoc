@@ -10,3 +10,15 @@ Things you may want to cover:
 * git init
 * git add remote origin ssh:url.git
 
+You can take a look at these resources for a better understanding:
+- http://www.rubydoc.info/gems/rspec-rails/frames
+- http://betterspecs.org
+
+Please add rspec_rails gem to start the integration to your project, 
+then follow these instructions:
+http://www.rubydoc.info/gems/rspec-rails/frames
+
+Code Coverage refers to the percentage of lines of code with corresponding unit tests, in this case rspec tests. 
+
+You have to install simple_cov gem, see instructions here:
+https://github.com/colszowka/simplecov

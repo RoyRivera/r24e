@@ -46,6 +46,15 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
+  # Testing framework for Rails 3.x and 4.x.
+  gem 'rspec-rails'
+
+   # Code coverage for Ruby 1.9+
+  gem 'simplecov'
+
+  # SimpleCov formatter to generate a simple index.html Rcov style
+  gem 'simplecov-rcov'
+
   gem 'bootstrap-sass', '~> 3.3.4'
 end
 
