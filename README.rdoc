@@ -11,6 +11,7 @@ Things you may want to cover:
 * git add remote origin ssh:url.git
 
 You can take a look at these resources for a better understanding:
+- https://github.com/eliotsykes/rspec-rails-examples
 - http://www.rubydoc.info/gems/rspec-rails/frames
 - http://betterspecs.org
 
