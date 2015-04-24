@@ -61,6 +61,14 @@ class UsersController < ApplicationController
     end
   end
 
+  def remove_user_without_picture
+    User.where(picture: '').delete_all
+    respond_to do |format|
+      format.html { redirect_to users_url, notice: 'Users without picture have been destroyed!' }
+      format.json { head :no_content }
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
@@ -69,6 +77,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:username, :email, :password, :password_confirmation)
+      params.require(:user).permit(:username, :email, :website, :picture, :password, :password_confirmation)
     end
 end
